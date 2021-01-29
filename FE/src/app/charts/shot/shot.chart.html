@@ -1,0 +1,53 @@
+<div class="row">
+  <div *ngIf="print" [style.width]="pars.logoFrameWidth+'px'" style="margin-left: 18px;">
+    <eh-print-frame className="top-left"></eh-print-frame>
+    <div style="float: left">
+      <eh-print-header [club]="club" [match]="match" [season]="season" [name]="'Shots chart' + (store.against ? ' against' : '')"></eh-print-header>
+      <eh-print-names [array]="playersOn" [all]="players" title="Players"></eh-print-names>
+    </div>
+    <div style="float: right" class="logo-white"></div>
+  </div>
+</div>
+<div class="row" style="float: left; width: 1010px; height: 640px" [class.print]="print">
+  <div #field id="field" style="position: absolute; top: 0px; left: 15px;"></div>
+  <div id="chart" #shots style="width: 900px; height: 600px; position: absolute; top: 10px; left: 15px;"></div>
+  <div class="legend" [style.top.px]="legend.shotType.top">
+    <eh-switch-div *ngFor="let type of shotTypes" (switchedOn)="switchOnOff('shots', $event, type)"
+                   [width]="pars.legendItemWidth" [height]="pars.legendItemHeight"
+                   [margin_bottom]="5">
+    </eh-switch-div>
+  </div>
+  <div class="legend" [style.top.px]="legend.result.top">
+    <eh-switch-div *ngFor="let type of resultTypes" (switchedOn)="switchOnOff('results', $event, type)"
+                   [width]="pars.legendItemWidth" [height]="pars.legendItemHeight"
+                   [margin_bottom]="5">
+    </eh-switch-div>
+  </div>
+  <div class="legend" [style.top.px]="legend.xG.top">
+    <eh-switch-div *ngFor="let type of xGTypes" (switchedOn)="switchOnOff('xG', $event, type)"
+                   [width]="pars.legendItemWidth" [height]="pars.legendItemHeight"
+                   [margin_bottom]="5">
+      {{type}}
+    </eh-switch-div>
+  </div>
+  <div class="legend" *ngIf="club.source === 'wyscout' && !print" [style.top.px]="legend.showAssistsSwitch.top">
+    <button type="button" class="btn btn-outline-secondary" (click)="toggleShowAssists()">
+      {{showAssists ? 'Hide' : 'Show'}} assists
+    </button>
+  </div>
+  <div class="legend players-legend" *ngIf="!store.against && players.length > 1">
+    <eh-switch-div *ngFor="let name of players" (switchedOn)="switchOnOff('players', $event, name)"
+                   [width]="pars.legendItemWidth + 50" [height]="pars.legendItemHeight"
+                   [margin_bottom]="5" [text]="name">
+    </eh-switch-div>
+  </div>
+
+  <div class="legend teams-legend" *ngIf="!print && store.against && teams.length > 1">
+    <eh-switch-div *ngFor="let name of teams" (switchedOn)="switchOnOff('teams', $event, name)"
+                   [width]="pars.legendItemWidth + 50" [height]="pars.legendItemHeight"
+                   [margin_bottom]="5" [text]="name">
+    </eh-switch-div>
+  </div>
+  <eh-print-frame className="bottom-right"></eh-print-frame>
+</div>
+

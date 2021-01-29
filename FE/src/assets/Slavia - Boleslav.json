@@ -1,0 +1,1208 @@
+{
+  "data": {
+    "Players": [
+      {
+        "firstname": "Sykora", 
+        "id": 0, 
+        "name": "6. Sykora Jan", 
+        "passes": [
+          {
+            "playerId": 3, 
+            "value": 0
+          }, 
+          {
+            "playerId": 5, 
+            "value": 0
+          }, 
+          {
+            "playerId": 6, 
+            "value": 0
+          }, 
+          {
+            "playerId": 8, 
+            "value": 0
+          }, 
+          {
+            "playerId": 10, 
+            "value": 0
+          }, 
+          {
+            "playerId": 12, 
+            "value": 0
+          }, 
+          {
+            "playerId": 15, 
+            "value": 0
+          }, 
+          {
+            "playerId": 17, 
+            "value": 0
+          }, 
+          {
+            "playerId": 18, 
+            "value": 0
+          }, 
+          {
+            "playerId": 19, 
+            "value": 0
+          }
+        ], 
+        "position": {
+          "x": 97.0, 
+          "y": 57.3
+        }, 
+        "surname": "Jan", 
+        "teamId": 0, 
+        "touches": 1
+      }, 
+      {
+        "firstname": "Moravec", 
+        "id": 1, 
+        "name": "14. Moravec Jan", 
+        "passes": [
+          {
+            "playerId": 2, 
+            "value": 0
+          }, 
+          {
+            "playerId": 4, 
+            "value": 1
+          }, 
+          {
+            "playerId": 7, 
+            "value": 0
+          }, 
+          {
+            "playerId": 9, 
+            "value": 0
+          }, 
+          {
+            "playerId": 11, 
+            "value": 0
+          }, 
+          {
+            "playerId": 13, 
+            "value": 0
+          }, 
+          {
+            "playerId": 14, 
+            "value": 3
+          }, 
+          {
+            "playerId": 16, 
+            "value": 0
+          }, 
+          {
+            "playerId": 20, 
+            "value": 0
+          }, 
+          {
+            "playerId": 21, 
+            "value": 0
+          }
+        ], 
+        "position": {
+          "x": 64.72222222222223, 
+          "y": 17.722222222222218
+        }, 
+        "surname": "Jan", 
+        "teamId": 1, 
+        "touches": 9
+      }, 
+      {
+        "firstname": "Wagner", 
+        "id": 2, 
+        "name": "15. Wagner Tomas", 
+        "passes": [
+          {
+            "playerId": 1, 
+            "value": 0
+          }, 
+          {
+            "playerId": 4, 
+            "value": 0
+          }, 
+          {
+            "playerId": 7, 
+            "value": 0
+          }, 
+          {
+            "playerId": 9, 
+            "value": 0
+          }, 
+          {
+            "playerId": 11, 
+            "value": 0
+          }, 
+          {
+            "playerId": 13, 
+            "value": 0
+          }, 
+          {
+            "playerId": 14, 
+            "value": 0
+          }, 
+          {
+            "playerId": 16, 
+            "value": 0
+          }, 
+          {
+            "playerId": 20, 
+            "value": 0
+          }, 
+          {
+            "playerId": 21, 
+            "value": 0
+          }
+        ], 
+        "position": {
+          "x": 80.2, 
+          "y": 39.20909090909091
+        }, 
+        "surname": "Tomas", 
+        "teamId": 1, 
+        "touches": 11
+      }, 
+      {
+        "firstname": "Danny", 
+        "id": 3, 
+        "name": "7. Danny", 
+        "passes": [
+          {
+            "playerId": 0, 
+            "value": 0
+          }, 
+          {
+            "playerId": 5, 
+            "value": 0
+          }, 
+          {
+            "playerId": 6, 
+            "value": 1
+          }, 
+          {
+            "playerId": 8, 
+            "value": 0
+          }, 
+          {
+            "playerId": 10, 
+            "value": 0
+          }, 
+          {
+            "playerId": 12, 
+            "value": 0
+          }, 
+          {
+            "playerId": 15, 
+            "value": 0
+          }, 
+          {
+            "playerId": 17, 
+            "value": 2
+          }, 
+          {
+            "playerId": 18, 
+            "value": 0
+          }, 
+          {
+            "playerId": 19, 
+            "value": 1
+          }
+        ], 
+        "position": {
+          "x": 49.752941176470586, 
+          "y": 26.97058823529412
+        }, 
+        "surname": "Danny ", 
+        "teamId": 0, 
+        "touches": 17
+      }, 
+      {
+        "firstname": "Ramirez", 
+        "id": 4, 
+        "name": "24. Ramirez Eric", 
+        "passes": [
+          {
+            "playerId": 1, 
+            "value": 0
+          }, 
+          {
+            "playerId": 2, 
+            "value": 0
+          }, 
+          {
+            "playerId": 7, 
+            "value": 0
+          }, 
+          {
+            "playerId": 9, 
+            "value": 1
+          }, 
+          {
+            "playerId": 11, 
+            "value": 0
+          }, 
+          {
+            "playerId": 13, 
+            "value": 0
+          }, 
+          {
+            "playerId": 14, 
+            "value": 0
+          }, 
+          {
+            "playerId": 16, 
+            "value": 1
+          }, 
+          {
+            "playerId": 20, 
+            "value": 0
+          }, 
+          {
+            "playerId": 21, 
+            "value": 3
+          }
+        ], 
+        "position": {
+          "x": 76.56923076923077, 
+          "y": 32.25384615384615
+        }, 
+        "surname": "Eric", 
+        "teamId": 1, 
+        "touches": 26
+      }, 
+      {
+        "firstname": "Skoda", 
+        "id": 5, 
+        "name": "21. Skoda Milan", 
+        "passes": [
+          {
+            "playerId": 0, 
+            "value": 0
+          }, 
+          {
+            "playerId": 3, 
+            "value": 0
+          }, 
+          {
+            "playerId": 6, 
+            "value": 0
+          }, 
+          {
+            "playerId": 8, 
+            "value": 1
+          }, 
+          {
+            "playerId": 10, 
+            "value": 0
+          }, 
+          {
+            "playerId": 12, 
+            "value": 1
+          }, 
+          {
+            "playerId": 15, 
+            "value": 0
+          }, 
+          {
+            "playerId": 17, 
+            "value": 0
+          }, 
+          {
+            "playerId": 18, 
+            "value": 0
+          }, 
+          {
+            "playerId": 19, 
+            "value": 1
+          }
+        ], 
+        "position": {
+          "x": 64.8157894736842, 
+          "y": 24.605263157894736
+        }, 
+        "surname": "Milan", 
+        "teamId": 0, 
+        "touches": 19
+      }, 
+      {
+        "firstname": "Tecl", 
+        "id": 6, 
+        "name": "11. Tecl Stanislav", 
+        "passes": [
+          {
+            "playerId": 0, 
+            "value": 0
+          }, 
+          {
+            "playerId": 3, 
+            "value": 0
+          }, 
+          {
+            "playerId": 5, 
+            "value": 0
+          }, 
+          {
+            "playerId": 8, 
+            "value": 0
+          }, 
+          {
+            "playerId": 10, 
+            "value": 0
+          }, 
+          {
+            "playerId": 12, 
+            "value": 0
+          }, 
+          {
+            "playerId": 15, 
+            "value": 1
+          }, 
+          {
+            "playerId": 17, 
+            "value": 0
+          }, 
+          {
+            "playerId": 18, 
+            "value": 0
+          }, 
+          {
+            "playerId": 19, 
+            "value": 2
+          }
+        ], 
+        "position": {
+          "x": 61.142499999999984, 
+          "y": 29.979999999999997
+        }, 
+        "surname": "Stanislav", 
+        "teamId": 0, 
+        "touches": 40
+      }, 
+      {
+        "firstname": "Weber", 
+        "id": 7, 
+        "name": "21. Weber Tomas", 
+        "passes": [
+          {
+            "playerId": 1, 
+            "value": 0
+          }, 
+          {
+            "playerId": 2, 
+            "value": 0
+          }, 
+          {
+            "playerId": 4, 
+            "value": 0
+          }, 
+          {
+            "playerId": 9, 
+            "value": 2
+          }, 
+          {
+            "playerId": 11, 
+            "value": 2
+          }, 
+          {
+            "playerId": 13, 
+            "value": 1
+          }, 
+          {
+            "playerId": 14, 
+            "value": 6
+          }, 
+          {
+            "playerId": 16, 
+            "value": 3
+          }, 
+          {
+            "playerId": 20, 
+            "value": 2
+          }, 
+          {
+            "playerId": 21, 
+            "value": 1
+          }
+        ], 
+        "position": {
+          "x": 54.06415094339622, 
+          "y": 29.315094339622643
+        }, 
+        "surname": "Tomas", 
+        "teamId": 1, 
+        "touches": 53
+      }, 
+      {
+        "firstname": "Husbauer", 
+        "id": 8, 
+        "name": "10. Husbauer Josef", 
+        "passes": [
+          {
+            "playerId": 0, 
+            "value": 0
+          }, 
+          {
+            "playerId": 3, 
+            "value": 0
+          }, 
+          {
+            "playerId": 5, 
+            "value": 0
+          }, 
+          {
+            "playerId": 6, 
+            "value": 3
+          }, 
+          {
+            "playerId": 10, 
+            "value": 1
+          }, 
+          {
+            "playerId": 12, 
+            "value": 5
+          }, 
+          {
+            "playerId": 15, 
+            "value": 1
+          }, 
+          {
+            "playerId": 17, 
+            "value": 2
+          }, 
+          {
+            "playerId": 18, 
+            "value": 1
+          }, 
+          {
+            "playerId": 19, 
+            "value": 2
+          }
+        ], 
+        "position": {
+          "x": 62.027027027027, 
+          "y": 36.29999999999998
+        }, 
+        "surname": "Josef", 
+        "teamId": 0, 
+        "touches": 74
+      }, 
+      {
+        "firstname": "Kalabiska", 
+        "id": 9, 
+        "name": "9. Kalabiska Jan", 
+        "passes": [
+          {
+            "playerId": 1, 
+            "value": 0
+          }, 
+          {
+            "playerId": 2, 
+            "value": 0
+          }, 
+          {
+            "playerId": 4, 
+            "value": 0
+          }, 
+          {
+            "playerId": 7, 
+            "value": 2
+          }, 
+          {
+            "playerId": 11, 
+            "value": 1
+          }, 
+          {
+            "playerId": 13, 
+            "value": 0
+          }, 
+          {
+            "playerId": 14, 
+            "value": 3
+          }, 
+          {
+            "playerId": 16, 
+            "value": 1
+          }, 
+          {
+            "playerId": 20, 
+            "value": 1
+          }, 
+          {
+            "playerId": 21, 
+            "value": 0
+          }
+        ], 
+        "position": {
+          "x": 60.66730769230771, 
+          "y": 45.680769230769215
+        }, 
+        "surname": "Jan", 
+        "teamId": 1, 
+        "touches": 52
+      }, 
+      {
+        "firstname": "Hromada", 
+        "id": 10, 
+        "name": "26. Hromada Jakub", 
+        "passes": [
+          {
+            "playerId": 0, 
+            "value": 0
+          }, 
+          {
+            "playerId": 3, 
+            "value": 0
+          }, 
+          {
+            "playerId": 5, 
+            "value": 2
+          }, 
+          {
+            "playerId": 6, 
+            "value": 3
+          }, 
+          {
+            "playerId": 8, 
+            "value": 4
+          }, 
+          {
+            "playerId": 12, 
+            "value": 1
+          }, 
+          {
+            "playerId": 15, 
+            "value": 2
+          }, 
+          {
+            "playerId": 17, 
+            "value": 2
+          }, 
+          {
+            "playerId": 18, 
+            "value": 6
+          }, 
+          {
+            "playerId": 19, 
+            "value": 3
+          }
+        ], 
+        "position": {
+          "x": 47.09473684210526, 
+          "y": 37.72236842105262
+        }, 
+        "surname": "Jakub", 
+        "teamId": 0, 
+        "touches": 76
+      }, 
+      {
+        "firstname": "Sisler", 
+        "id": 11, 
+        "name": "6. Sisler Jan", 
+        "passes": [
+          {
+            "playerId": 1, 
+            "value": 0
+          }, 
+          {
+            "playerId": 2, 
+            "value": 0
+          }, 
+          {
+            "playerId": 4, 
+            "value": 0
+          }, 
+          {
+            "playerId": 7, 
+            "value": 3
+          }, 
+          {
+            "playerId": 9, 
+            "value": 2
+          }, 
+          {
+            "playerId": 13, 
+            "value": 5
+          }, 
+          {
+            "playerId": 14, 
+            "value": 6
+          }, 
+          {
+            "playerId": 16, 
+            "value": 1
+          }, 
+          {
+            "playerId": 20, 
+            "value": 0
+          }, 
+          {
+            "playerId": 21, 
+            "value": 4
+          }
+        ], 
+        "position": {
+          "x": 43.36338028169014, 
+          "y": 35.10422535211268
+        }, 
+        "surname": "Jan", 
+        "teamId": 1, 
+        "touches": 71
+      }, 
+      {
+        "firstname": "Frydrych", 
+        "id": 12, 
+        "name": "25. Frydrych Michal", 
+        "passes": [
+          {
+            "playerId": 0, 
+            "value": 0
+          }, 
+          {
+            "playerId": 3, 
+            "value": 2
+          }, 
+          {
+            "playerId": 5, 
+            "value": 4
+          }, 
+          {
+            "playerId": 6, 
+            "value": 4
+          }, 
+          {
+            "playerId": 8, 
+            "value": 5
+          }, 
+          {
+            "playerId": 10, 
+            "value": 1
+          }, 
+          {
+            "playerId": 15, 
+            "value": 0
+          }, 
+          {
+            "playerId": 17, 
+            "value": 5
+          }, 
+          {
+            "playerId": 18, 
+            "value": 2
+          }, 
+          {
+            "playerId": 19, 
+            "value": 5
+          }
+        ], 
+        "position": {
+          "x": 54.0857142857143, 
+          "y": 10.333333333333337
+        }, 
+        "surname": "Michal", 
+        "teamId": 0, 
+        "touches": 84
+      }, 
+      {
+        "firstname": "Hosek", 
+        "id": 13, 
+        "name": "22. Hosek Jan", 
+        "passes": [
+          {
+            "playerId": 1, 
+            "value": 0
+          }, 
+          {
+            "playerId": 2, 
+            "value": 0
+          }, 
+          {
+            "playerId": 4, 
+            "value": 0
+          }, 
+          {
+            "playerId": 7, 
+            "value": 1
+          }, 
+          {
+            "playerId": 9, 
+            "value": 0
+          }, 
+          {
+            "playerId": 11, 
+            "value": 2
+          }, 
+          {
+            "playerId": 14, 
+            "value": 2
+          }, 
+          {
+            "playerId": 16, 
+            "value": 0
+          }, 
+          {
+            "playerId": 20, 
+            "value": 10
+          }, 
+          {
+            "playerId": 21, 
+            "value": 2
+          }
+        ], 
+        "position": {
+          "x": 31.18472222222222, 
+          "y": 43.25694444444444
+        }, 
+        "surname": "Jan", 
+        "teamId": 1, 
+        "touches": 72
+      }, 
+      {
+        "firstname": "Budinsky", 
+        "id": 14, 
+        "name": "23. Budinsky Lukas", 
+        "passes": [
+          {
+            "playerId": 1, 
+            "value": 2
+          }, 
+          {
+            "playerId": 2, 
+            "value": 0
+          }, 
+          {
+            "playerId": 4, 
+            "value": 1
+          }, 
+          {
+            "playerId": 7, 
+            "value": 6
+          }, 
+          {
+            "playerId": 9, 
+            "value": 0
+          }, 
+          {
+            "playerId": 11, 
+            "value": 4
+          }, 
+          {
+            "playerId": 13, 
+            "value": 1
+          }, 
+          {
+            "playerId": 16, 
+            "value": 4
+          }, 
+          {
+            "playerId": 20, 
+            "value": 9
+          }, 
+          {
+            "playerId": 21, 
+            "value": 5
+          }
+        ], 
+        "position": {
+          "x": 63.15217391304346, 
+          "y": 32.11652173913044
+        }, 
+        "surname": "Lukas", 
+        "teamId": 1, 
+        "touches": 115
+      }, 
+      {
+        "firstname": "Sobol", 
+        "id": 15, 
+        "name": "3. Sobol Eduard", 
+        "passes": [
+          {
+            "playerId": 0, 
+            "value": 0
+          }, 
+          {
+            "playerId": 3, 
+            "value": 1
+          }, 
+          {
+            "playerId": 5, 
+            "value": 1
+          }, 
+          {
+            "playerId": 6, 
+            "value": 1
+          }, 
+          {
+            "playerId": 8, 
+            "value": 2
+          }, 
+          {
+            "playerId": 10, 
+            "value": 1
+          }, 
+          {
+            "playerId": 12, 
+            "value": 1
+          }, 
+          {
+            "playerId": 17, 
+            "value": 4
+          }, 
+          {
+            "playerId": 18, 
+            "value": 0
+          }, 
+          {
+            "playerId": 19, 
+            "value": 5
+          }
+        ], 
+        "position": {
+          "x": 52.67078651685393, 
+          "y": 55.0258426966292
+        }, 
+        "surname": "Eduard", 
+        "teamId": 0, 
+        "touches": 89
+      }, 
+      {
+        "firstname": "Colic", 
+        "id": 16, 
+        "name": "2. Colic Benjamin", 
+        "passes": [
+          {
+            "playerId": 1, 
+            "value": 2
+          }, 
+          {
+            "playerId": 2, 
+            "value": 1
+          }, 
+          {
+            "playerId": 4, 
+            "value": 1
+          }, 
+          {
+            "playerId": 7, 
+            "value": 2
+          }, 
+          {
+            "playerId": 9, 
+            "value": 0
+          }, 
+          {
+            "playerId": 11, 
+            "value": 2
+          }, 
+          {
+            "playerId": 13, 
+            "value": 1
+          }, 
+          {
+            "playerId": 14, 
+            "value": 9
+          }, 
+          {
+            "playerId": 20, 
+            "value": 0
+          }, 
+          {
+            "playerId": 21, 
+            "value": 6
+          }
+        ], 
+        "position": {
+          "x": 53.7336956521739, 
+          "y": 10.296739130434785
+        }, 
+        "surname": "Benjamin", 
+        "teamId": 1, 
+        "touches": 92
+      }, 
+      {
+        "firstname": "Boril", 
+        "id": 17, 
+        "name": "18. Boril Jan", 
+        "passes": [
+          {
+            "playerId": 0, 
+            "value": 0
+          }, 
+          {
+            "playerId": 3, 
+            "value": 2
+          }, 
+          {
+            "playerId": 5, 
+            "value": 0
+          }, 
+          {
+            "playerId": 6, 
+            "value": 1
+          }, 
+          {
+            "playerId": 8, 
+            "value": 1
+          }, 
+          {
+            "playerId": 10, 
+            "value": 2
+          }, 
+          {
+            "playerId": 12, 
+            "value": 0
+          }, 
+          {
+            "playerId": 15, 
+            "value": 5
+          }, 
+          {
+            "playerId": 18, 
+            "value": 0
+          }, 
+          {
+            "playerId": 19, 
+            "value": 3
+          }
+        ], 
+        "position": {
+          "x": 58.3046875, 
+          "y": 45.11562499999999
+        }, 
+        "surname": "Jan", 
+        "teamId": 0, 
+        "touches": 64
+      }, 
+      {
+        "firstname": "Jugas", 
+        "id": 18, 
+        "name": "4. Jugas Jakub", 
+        "passes": [
+          {
+            "playerId": 0, 
+            "value": 0
+          }, 
+          {
+            "playerId": 3, 
+            "value": 0
+          }, 
+          {
+            "playerId": 5, 
+            "value": 1
+          }, 
+          {
+            "playerId": 6, 
+            "value": 1
+          }, 
+          {
+            "playerId": 8, 
+            "value": 3
+          }, 
+          {
+            "playerId": 10, 
+            "value": 3
+          }, 
+          {
+            "playerId": 12, 
+            "value": 5
+          }, 
+          {
+            "playerId": 15, 
+            "value": 0
+          }, 
+          {
+            "playerId": 17, 
+            "value": 2
+          }, 
+          {
+            "playerId": 19, 
+            "value": 2
+          }
+        ], 
+        "position": {
+          "x": 40.76704545454544, 
+          "y": 20.455681818181823
+        }, 
+        "surname": "Jakub", 
+        "teamId": 0, 
+        "touches": 88
+      }, 
+      {
+        "firstname": "Stoch", 
+        "id": 19, 
+        "name": "17. Stoch Miroslav", 
+        "passes": [
+          {
+            "playerId": 0, 
+            "value": 1
+          }, 
+          {
+            "playerId": 3, 
+            "value": 1
+          }, 
+          {
+            "playerId": 5, 
+            "value": 2
+          }, 
+          {
+            "playerId": 6, 
+            "value": 2
+          }, 
+          {
+            "playerId": 8, 
+            "value": 2
+          }, 
+          {
+            "playerId": 10, 
+            "value": 4
+          }, 
+          {
+            "playerId": 12, 
+            "value": 4
+          }, 
+          {
+            "playerId": 15, 
+            "value": 5
+          }, 
+          {
+            "playerId": 17, 
+            "value": 4
+          }, 
+          {
+            "playerId": 18, 
+            "value": 2
+          }
+        ], 
+        "position": {
+          "x": 64.76413043478261, 
+          "y": 33.69565217391305
+        }, 
+        "surname": "Miroslav", 
+        "teamId": 0, 
+        "touches": 92
+      }, 
+      {
+        "firstname": "Eismann", 
+        "id": 20, 
+        "name": "17. Eismann Pavel", 
+        "passes": [
+          {
+            "playerId": 1, 
+            "value": 0
+          }, 
+          {
+            "playerId": 2, 
+            "value": 0
+          }, 
+          {
+            "playerId": 4, 
+            "value": 1
+          }, 
+          {
+            "playerId": 7, 
+            "value": 6
+          }, 
+          {
+            "playerId": 9, 
+            "value": 8
+          }, 
+          {
+            "playerId": 11, 
+            "value": 4
+          }, 
+          {
+            "playerId": 13, 
+            "value": 10
+          }, 
+          {
+            "playerId": 14, 
+            "value": 10
+          }, 
+          {
+            "playerId": 16, 
+            "value": 0
+          }, 
+          {
+            "playerId": 21, 
+            "value": 2
+          }
+        ], 
+        "position": {
+          "x": 49.22528735632184, 
+          "y": 54.772413793103446
+        }, 
+        "surname": "Pavel", 
+        "teamId": 1, 
+        "touches": 87
+      }, 
+      {
+        "firstname": "Panak", 
+        "id": 21, 
+        "name": "27. Panak Filip", 
+        "passes": [
+          {
+            "playerId": 1, 
+            "value": 0
+          }, 
+          {
+            "playerId": 2, 
+            "value": 0
+          }, 
+          {
+            "playerId": 4, 
+            "value": 0
+          }, 
+          {
+            "playerId": 7, 
+            "value": 1
+          }, 
+          {
+            "playerId": 9, 
+            "value": 1
+          }, 
+          {
+            "playerId": 11, 
+            "value": 2
+          }, 
+          {
+            "playerId": 13, 
+            "value": 1
+          }, 
+          {
+            "playerId": 14, 
+            "value": 6
+          }, 
+          {
+            "playerId": 16, 
+            "value": 7
+          }, 
+          {
+            "playerId": 20, 
+            "value": 2
+          }
+        ], 
+        "position": {
+          "x": 58.40652173913041, 
+          "y": 23.70978260869565
+        }, 
+        "surname": "Filip", 
+        "teamId": 1, 
+        "touches": 92
+      }
+    ], 
+    "Teams": [
+      {
+        "goals": 3, 
+        "imageUrl": "???", 
+        "name": "Slavia Praha", 
+        "teamId": 0
+      }, 
+      {
+        "goals": 2, 
+        "imageUrl": "???", 
+        "name": "MFK Karvina", 
+        "teamId": 1
+      }
+    ]
+  }
+}

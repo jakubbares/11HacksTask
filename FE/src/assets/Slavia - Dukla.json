@@ -1,0 +1,1160 @@
+{
+	"data": {
+		"Teams": [{
+			"name": "Slavia Praha",
+			"goals": 4,
+			"imageUrl": "???",
+			"teamId": 0
+		},
+		{
+			"name": "Dukla Praha",
+			"goals": 0,
+			"imageUrl": "???",
+			"teamId": 1
+		}],
+		"Players": [{
+			"name": "7. Danny",
+			"firstname": "Danny",
+			"surname": " ",
+			"touches": 94,
+			"teamId": 0,
+			"position": {
+				"x": 67.54574468085107,
+				"y": 31.053191489361716
+			},
+			"passes": [{
+				"playerId": 2,
+				"value": 0
+			},
+			{
+				"playerId": 7,
+				"value": 6
+			},
+			{
+				"playerId": 10,
+				"value": 2
+			},
+			{
+				"playerId": 11,
+				"value": 0
+			},
+			{
+				"playerId": 12,
+				"value": 7
+			},
+			{
+				"playerId": 14,
+				"value": 7
+			},
+			{
+				"playerId": 15,
+				"value": 0
+			},
+			{
+				"playerId": 17,
+				"value": 2
+			},
+			{
+				"playerId": 20,
+				"value": 1
+			},
+			{
+				"playerId": 21,
+				"value": 1
+			}],
+			"id": 0
+		},
+		{
+			"name": "25. Bezpalec Michal",
+			"firstname": "Bezpalec",
+			"surname": "Michal",
+			"touches": 13,
+			"teamId": 1,
+			"position": {
+				"x": 24.623076923076916,
+				"y": 17.661538461538463
+			},
+			"passes": [{
+				"playerId": 3,
+				"value": 0
+			},
+			{
+				"playerId": 4,
+				"value": 0
+			},
+			{
+				"playerId": 5,
+				"value": 0
+			},
+			{
+				"playerId": 6,
+				"value": 1
+			},
+			{
+				"playerId": 8,
+				"value": 0
+			},
+			{
+				"playerId": 9,
+				"value": 0
+			},
+			{
+				"playerId": 13,
+				"value": 0
+			},
+			{
+				"playerId": 16,
+				"value": 0
+			},
+			{
+				"playerId": 18,
+				"value": 1
+			},
+			{
+				"playerId": 19,
+				"value": 0
+			}],
+			"id": 1
+		},
+		{
+			"name": "6. Sykora Jan",
+			"firstname": "Sykora",
+			"surname": "Jan",
+			"touches": 20,
+			"teamId": 0,
+			"position": {
+				"x": 67.86500000000002,
+				"y": 11.569999999999997
+			},
+			"passes": [{
+				"playerId": 0,
+				"value": 0
+			},
+			{
+				"playerId": 7,
+				"value": 0
+			},
+			{
+				"playerId": 10,
+				"value": 2
+			},
+			{
+				"playerId": 11,
+				"value": 0
+			},
+			{
+				"playerId": 12,
+				"value": 0
+			},
+			{
+				"playerId": 14,
+				"value": 1
+			},
+			{
+				"playerId": 15,
+				"value": 0
+			},
+			{
+				"playerId": 17,
+				"value": 0
+			},
+			{
+				"playerId": 20,
+				"value": 1
+			},
+			{
+				"playerId": 21,
+				"value": 0
+			}],
+			"id": 2
+		},
+		{
+			"name": "23. Duranovic Uros",
+			"firstname": "Duranovic",
+			"surname": "Uros",
+			"touches": 36,
+			"teamId": 1,
+			"position": {
+				"x": 70.06388888888888,
+				"y": 34.6
+			},
+			"passes": [{
+				"playerId": 1,
+				"value": 0
+			},
+			{
+				"playerId": 4,
+				"value": 0
+			},
+			{
+				"playerId": 5,
+				"value": 2
+			},
+			{
+				"playerId": 6,
+				"value": 0
+			},
+			{
+				"playerId": 8,
+				"value": 0
+			},
+			{
+				"playerId": 9,
+				"value": 0
+			},
+			{
+				"playerId": 13,
+				"value": 0
+			},
+			{
+				"playerId": 16,
+				"value": 0
+			},
+			{
+				"playerId": 18,
+				"value": 3
+			},
+			{
+				"playerId": 19,
+				"value": 2
+			}],
+			"id": 3
+		},
+		{
+			"name": "19. Holik Lukas",
+			"firstname": "Holik",
+			"surname": "Lukas",
+			"touches": 18,
+			"teamId": 1,
+			"position": {
+				"x": 49.383333333333326,
+				"y": 42.21666666666667
+			},
+			"passes": [{
+				"playerId": 1,
+				"value": 0
+			},
+			{
+				"playerId": 3,
+				"value": 0
+			},
+			{
+				"playerId": 5,
+				"value": 1
+			},
+			{
+				"playerId": 6,
+				"value": 0
+			},
+			{
+				"playerId": 8,
+				"value": 0
+			},
+			{
+				"playerId": 9,
+				"value": 0
+			},
+			{
+				"playerId": 13,
+				"value": 0
+			},
+			{
+				"playerId": 16,
+				"value": 0
+			},
+			{
+				"playerId": 18,
+				"value": 0
+			},
+			{
+				"playerId": 19,
+				"value": 0
+			}],
+			"id": 4
+		},
+		{
+			"name": "9. Holenda Jan",
+			"firstname": "Holenda",
+			"surname": "Jan",
+			"touches": 80,
+			"teamId": 1,
+			"position": {
+				"x": 61.54124999999999,
+				"y": 28.990000000000002
+			},
+			"passes": [{
+				"playerId": 1,
+				"value": 0
+			},
+			{
+				"playerId": 3,
+				"value": 3
+			},
+			{
+				"playerId": 4,
+				"value": 1
+			},
+			{
+				"playerId": 6,
+				"value": 0
+			},
+			{
+				"playerId": 8,
+				"value": 4
+			},
+			{
+				"playerId": 9,
+				"value": 1
+			},
+			{
+				"playerId": 13,
+				"value": 1
+			},
+			{
+				"playerId": 16,
+				"value": 2
+			},
+			{
+				"playerId": 18,
+				"value": 3
+			},
+			{
+				"playerId": 19,
+				"value": 5
+			}],
+			"id": 5
+		},
+		{
+			"name": "1. Rada Filip",
+			"firstname": "Rada",
+			"surname": "Filip",
+			"touches": 81,
+			"teamId": 1,
+			"position": {
+				"x": 13.633333333333336,
+				"y": 31.591358024691363
+			},
+			"passes": [{
+				"playerId": 1,
+				"value": 2
+			},
+			{
+				"playerId": 3,
+				"value": 0
+			},
+			{
+				"playerId": 4,
+				"value": 0
+			},
+			{
+				"playerId": 5,
+				"value": 4
+			},
+			{
+				"playerId": 8,
+				"value": 1
+			},
+			{
+				"playerId": 9,
+				"value": 6
+			},
+			{
+				"playerId": 13,
+				"value": 3
+			},
+			{
+				"playerId": 16,
+				"value": 2
+			},
+			{
+				"playerId": 18,
+				"value": 5
+			},
+			{
+				"playerId": 19,
+				"value": 1
+			}],
+			"id": 6
+		},
+		{
+			"name": "17. Stoch Miroslav",
+			"firstname": "Stoch",
+			"surname": "Miroslav",
+			"touches": 124,
+			"teamId": 0,
+			"position": {
+				"x": 65.29354838709678,
+				"y": 49.94193548387099
+			},
+			"passes": [{
+				"playerId": 0,
+				"value": 10
+			},
+			{
+				"playerId": 2,
+				"value": 0
+			},
+			{
+				"playerId": 10,
+				"value": 7
+			},
+			{
+				"playerId": 11,
+				"value": 4
+			},
+			{
+				"playerId": 12,
+				"value": 0
+			},
+			{
+				"playerId": 14,
+				"value": 6
+			},
+			{
+				"playerId": 15,
+				"value": 0
+			},
+			{
+				"playerId": 17,
+				"value": 8
+			},
+			{
+				"playerId": 20,
+				"value": 3
+			},
+			{
+				"playerId": 21,
+				"value": 1
+			}],
+			"id": 7
+		},
+		{
+			"name": "11. Mustedanagic Zinedin",
+			"firstname": "Mustedanagic",
+			"surname": "Zinedin",
+			"touches": 54,
+			"teamId": 1,
+			"position": {
+				"x": 45.1,
+				"y": 34.51296296296297
+			},
+			"passes": [{
+				"playerId": 1,
+				"value": 0
+			},
+			{
+				"playerId": 3,
+				"value": 0
+			},
+			{
+				"playerId": 4,
+				"value": 0
+			},
+			{
+				"playerId": 5,
+				"value": 2
+			},
+			{
+				"playerId": 6,
+				"value": 0
+			},
+			{
+				"playerId": 9,
+				"value": 0
+			},
+			{
+				"playerId": 13,
+				"value": 0
+			},
+			{
+				"playerId": 16,
+				"value": 0
+			},
+			{
+				"playerId": 18,
+				"value": 2
+			},
+			{
+				"playerId": 19,
+				"value": 2
+			}],
+			"id": 8
+		},
+		{
+			"name": "39. Podany Jakub",
+			"firstname": "Podany",
+			"surname": "Jakub",
+			"touches": 109,
+			"teamId": 1,
+			"position": {
+				"x": 47.03302752293578,
+				"y": 56.17981651376149
+			},
+			"passes": [{
+				"playerId": 1,
+				"value": 0
+			},
+			{
+				"playerId": 3,
+				"value": 1
+			},
+			{
+				"playerId": 4,
+				"value": 0
+			},
+			{
+				"playerId": 5,
+				"value": 10
+			},
+			{
+				"playerId": 6,
+				"value": 0
+			},
+			{
+				"playerId": 8,
+				"value": 4
+			},
+			{
+				"playerId": 13,
+				"value": 5
+			},
+			{
+				"playerId": 16,
+				"value": 9
+			},
+			{
+				"playerId": 18,
+				"value": 2
+			},
+			{
+				"playerId": 19,
+				"value": 4
+			}],
+			"id": 9
+		},
+		{
+			"name": "25. Frydrych Michal",
+			"firstname": "Frydrych",
+			"surname": "Michal",
+			"touches": 105,
+			"teamId": 0,
+			"position": {
+				"x": 59.82857142857143,
+				"y": 10.69142857142857
+			},
+			"passes": [{
+				"playerId": 0,
+				"value": 3
+			},
+			{
+				"playerId": 2,
+				"value": 2
+			},
+			{
+				"playerId": 7,
+				"value": 1
+			},
+			{
+				"playerId": 11,
+				"value": 3
+			},
+			{
+				"playerId": 12,
+				"value": 8
+			},
+			{
+				"playerId": 14,
+				"value": 15
+			},
+			{
+				"playerId": 15,
+				"value": 2
+			},
+			{
+				"playerId": 17,
+				"value": 0
+			},
+			{
+				"playerId": 20,
+				"value": 0
+			},
+			{
+				"playerId": 21,
+				"value": 0
+			}],
+			"id": 10
+		},
+		{
+			"name": "21. Skoda Milan",
+			"firstname": "Skoda",
+			"surname": "Milan",
+			"touches": 69,
+			"teamId": 0,
+			"position": {
+				"x": 65.4086956521739,
+				"y": 29.320289855072456
+			},
+			"passes": [{
+				"playerId": 0,
+				"value": 2
+			},
+			{
+				"playerId": 2,
+				"value": 1
+			},
+			{
+				"playerId": 7,
+				"value": 2
+			},
+			{
+				"playerId": 10,
+				"value": 1
+			},
+			{
+				"playerId": 12,
+				"value": 4
+			},
+			{
+				"playerId": 14,
+				"value": 4
+			},
+			{
+				"playerId": 15,
+				"value": 0
+			},
+			{
+				"playerId": 17,
+				"value": 1
+			},
+			{
+				"playerId": 20,
+				"value": 0
+			},
+			{
+				"playerId": 21,
+				"value": 0
+			}],
+			"id": 11
+		},
+		{
+			"name": "8. Zmrhal Jaromir",
+			"firstname": "Zmrhal",
+			"surname": "Jaromir",
+			"touches": 115,
+			"teamId": 0,
+			"position": {
+				"x": 67.85739130434784,
+				"y": 19.372173913043493
+			},
+			"passes": [{
+				"playerId": 0,
+				"value": 4
+			},
+			{
+				"playerId": 2,
+				"value": 0
+			},
+			{
+				"playerId": 7,
+				"value": 1
+			},
+			{
+				"playerId": 10,
+				"value": 5
+			},
+			{
+				"playerId": 11,
+				"value": 2
+			},
+			{
+				"playerId": 14,
+				"value": 8
+			},
+			{
+				"playerId": 15,
+				"value": 0
+			},
+			{
+				"playerId": 17,
+				"value": 2
+			},
+			{
+				"playerId": 20,
+				"value": 1
+			},
+			{
+				"playerId": 21,
+				"value": 0
+			}],
+			"id": 12
+		},
+		{
+			"name": "52. Jiranek Martin",
+			"firstname": "Jiranek",
+			"surname": "Martin",
+			"touches": 85,
+			"teamId": 1,
+			"position": {
+				"x": 26.529411764705884,
+				"y": 48.725882352941184
+			},
+			"passes": [{
+				"playerId": 1,
+				"value": 0
+			},
+			{
+				"playerId": 3,
+				"value": 0
+			},
+			{
+				"playerId": 4,
+				"value": 2
+			},
+			{
+				"playerId": 5,
+				"value": 4
+			},
+			{
+				"playerId": 6,
+				"value": 1
+			},
+			{
+				"playerId": 8,
+				"value": 2
+			},
+			{
+				"playerId": 9,
+				"value": 8
+			},
+			{
+				"playerId": 16,
+				"value": 4
+			},
+			{
+				"playerId": 18,
+				"value": 2
+			},
+			{
+				"playerId": 19,
+				"value": 3
+			}],
+			"id": 13
+		},
+		{
+			"name": "10. Husbauer Josef",
+			"firstname": "Husbauer",
+			"surname": "Josef",
+			"touches": 147,
+			"teamId": 0,
+			"position": {
+				"x": 56.69251700680275,
+				"y": 27.471428571428568
+			},
+			"passes": [{
+				"playerId": 0,
+				"value": 4
+			},
+			{
+				"playerId": 2,
+				"value": 1
+			},
+			{
+				"playerId": 7,
+				"value": 9
+			},
+			{
+				"playerId": 10,
+				"value": 6
+			},
+			{
+				"playerId": 11,
+				"value": 3
+			},
+			{
+				"playerId": 12,
+				"value": 7
+			},
+			{
+				"playerId": 15,
+				"value": 0
+			},
+			{
+				"playerId": 17,
+				"value": 6
+			},
+			{
+				"playerId": 20,
+				"value": 2
+			},
+			{
+				"playerId": 21,
+				"value": 2
+			}],
+			"id": 14
+		},
+		{
+			"name": "16. Lastuvka Jan",
+			"firstname": "Lastuvka",
+			"surname": "Jan",
+			"touches": 59,
+			"teamId": 0,
+			"position": {
+				"x": 11.935593220338983,
+				"y": 31.442372881355926
+			},
+			"passes": [{
+				"playerId": 0,
+				"value": 1
+			},
+			{
+				"playerId": 2,
+				"value": 0
+			},
+			{
+				"playerId": 7,
+				"value": 0
+			},
+			{
+				"playerId": 10,
+				"value": 1
+			},
+			{
+				"playerId": 11,
+				"value": 6
+			},
+			{
+				"playerId": 12,
+				"value": 2
+			},
+			{
+				"playerId": 14,
+				"value": 0
+			},
+			{
+				"playerId": 17,
+				"value": 2
+			},
+			{
+				"playerId": 20,
+				"value": 7
+			},
+			{
+				"playerId": 21,
+				"value": 1
+			}],
+			"id": 15
+		},
+		{
+			"name": "3. Kores Stepan",
+			"firstname": "Kores",
+			"surname": "Stepan",
+			"touches": 51,
+			"teamId": 1,
+			"position": {
+				"x": 56.78627450980392,
+				"y": 49.496078431372524
+			},
+			"passes": [{
+				"playerId": 1,
+				"value": 0
+			},
+			{
+				"playerId": 3,
+				"value": 0
+			},
+			{
+				"playerId": 4,
+				"value": 0
+			},
+			{
+				"playerId": 5,
+				"value": 2
+			},
+			{
+				"playerId": 6,
+				"value": 0
+			},
+			{
+				"playerId": 8,
+				"value": 4
+			},
+			{
+				"playerId": 9,
+				"value": 4
+			},
+			{
+				"playerId": 13,
+				"value": 1
+			},
+			{
+				"playerId": 18,
+				"value": 4
+			},
+			{
+				"playerId": 19,
+				"value": 3
+			}],
+			"id": 16
+		},
+		{
+			"name": "3. Sobol Eduard",
+			"firstname": "Sobol",
+			"surname": "Eduard",
+			"touches": 125,
+			"teamId": 0,
+			"position": {
+				"x": 56.803200000000004,
+				"y": 58.18160000000006
+			},
+			"passes": [{
+				"playerId": 0,
+				"value": 6
+			},
+			{
+				"playerId": 2,
+				"value": 0
+			},
+			{
+				"playerId": 7,
+				"value": 16
+			},
+			{
+				"playerId": 10,
+				"value": 0
+			},
+			{
+				"playerId": 11,
+				"value": 5
+			},
+			{
+				"playerId": 12,
+				"value": 4
+			},
+			{
+				"playerId": 14,
+				"value": 4
+			},
+			{
+				"playerId": 15,
+				"value": 1
+			},
+			{
+				"playerId": 20,
+				"value": 5
+			},
+			{
+				"playerId": 21,
+				"value": 1
+			}],
+			"id": 17
+		},
+		{
+			"name": "26. Schranz Ivan",
+			"firstname": "Schranz",
+			"surname": "Ivan",
+			"touches": 82,
+			"teamId": 1,
+			"position": {
+				"x": 61.3182926829268,
+				"y": 25.80975609756098
+			},
+			"passes": [{
+				"playerId": 1,
+				"value": 0
+			},
+			{
+				"playerId": 3,
+				"value": 4
+			},
+			{
+				"playerId": 4,
+				"value": 0
+			},
+			{
+				"playerId": 5,
+				"value": 6
+			},
+			{
+				"playerId": 6,
+				"value": 0
+			},
+			{
+				"playerId": 8,
+				"value": 0
+			},
+			{
+				"playerId": 9,
+				"value": 1
+			},
+			{
+				"playerId": 13,
+				"value": 0
+			},
+			{
+				"playerId": 16,
+				"value": 0
+			},
+			{
+				"playerId": 19,
+				"value": 3
+			}],
+			"id": 18
+		},
+		{
+			"name": "15. Daniel Tetour",
+			"firstname": "Daniel",
+			"surname": "Tetour",
+			"touches": 113,
+			"teamId": 1,
+			"position": {
+				"x": 47.03716814159292,
+				"y": 30.882300884955768
+			},
+			"passes": [{
+				"playerId": 1,
+				"value": 1
+			},
+			{
+				"playerId": 3,
+				"value": 3
+			},
+			{
+				"playerId": 4,
+				"value": 1
+			},
+			{
+				"playerId": 5,
+				"value": 4
+			},
+			{
+				"playerId": 6,
+				"value": 1
+			},
+			{
+				"playerId": 8,
+				"value": 1
+			},
+			{
+				"playerId": 9,
+				"value": 6
+			},
+			{
+				"playerId": 13,
+				"value": 4
+			},
+			{
+				"playerId": 16,
+				"value": 3
+			},
+			{
+				"playerId": 18,
+				"value": 3
+			}],
+			"id": 19
+		},
+		{
+			"name": "13. Ngadeu-Ngadjui Michael ",
+			"firstname": "Ngadeu-Ngadjui",
+			"surname": "Michael",
+			"touches": 93,
+			"teamId": 0,
+			"position": {
+				"x": 27.472043010752692,
+				"y": 43.82580645161291
+			},
+			"passes": [{
+				"playerId": 0,
+				"value": 2
+			},
+			{
+				"playerId": 2,
+				"value": 0
+			},
+			{
+				"playerId": 7,
+				"value": 3
+			},
+			{
+				"playerId": 10,
+				"value": 2
+			},
+			{
+				"playerId": 11,
+				"value": 0
+			},
+			{
+				"playerId": 12,
+				"value": 2
+			},
+			{
+				"playerId": 14,
+				"value": 2
+			},
+			{
+				"playerId": 15,
+				"value": 2
+			},
+			{
+				"playerId": 17,
+				"value": 7
+			},
+			{
+				"playerId": 21,
+				"value": 4
+			}],
+			"id": 20
+		},
+		{
+			"name": "4. Jugas Jakub",
+			"firstname": "Jugas",
+			"surname": "Jakub",
+			"touches": 79,
+			"teamId": 0,
+			"position": {
+				"x": 35.14177215189874,
+				"y": 20.451898734177217
+			},
+			"passes": [{
+				"playerId": 0,
+				"value": 1
+			},
+			{
+				"playerId": 2,
+				"value": 3
+			},
+			{
+				"playerId": 7,
+				"value": 2
+			},
+			{
+				"playerId": 10,
+				"value": 1
+			},
+			{
+				"playerId": 11,
+				"value": 3
+			},
+			{
+				"playerId": 12,
+				"value": 3
+			},
+			{
+				"playerId": 14,
+				"value": 5
+			},
+			{
+				"playerId": 15,
+				"value": 4
+			},
+			{
+				"playerId": 17,
+				"value": 1
+			},
+			{
+				"playerId": 20,
+				"value": 4
+			}],
+			"id": 21
+		}]
+	}
+}

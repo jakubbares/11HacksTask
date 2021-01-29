@@ -1,0 +1,50 @@
+<div [class.print]="store.print">
+  <nav class="navbar navbar-expand-sm fixed-top">
+    <a class="navbar-brand">
+      <div class="logo-white"></div>
+    </a>
+    <ul class="nav navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/search']" [routerLinkActive]="['active']">Search</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/player']" [routerLinkActive]="['active']">Player</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/comparison']" [routerLinkActive]="['active']">Comparison</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/team']" [routerLinkActive]="['active']">Team</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/league']" [routerLinkActive]="['active']">League</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/match']" [routerLinkActive]="['active']">Match</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/new-user']" [routerLinkActive]="['active']">New user</a>
+      </li>
+      <!--<li class="nav-item dropdown">-->
+        <!--<a class="nav-link dropdown-toggle" instatid="dropdownMenuLink" data-toggle="dropdown">-->
+          <!--Charts-->
+        <!--</a>-->
+        <!--<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">-->
+          <!--<a class="dropdown-item" [routerLink]="['/radar']" [routerLinkActive]="['active']">Radar chart</a>-->
+          <!--<a class="dropdown-item" [routerLink]="['/barchart']" [routerLinkActive]="['active']">Bar chart</a>-->
+          <!--<a class="dropdown-item" [routerLink]="['/piechart']" [routerLinkActive]="['active']">Pie chart</a>-->
+          <!--<a class="dropdown-item" [routerLink]="['/linechart']" [routerLinkActive]="['active']">Line chart</a>-->
+        <!--</div>-->
+      <!--</li>-->
+    </ul>
+    <ul class="nav navbar-nav ml-auto">
+      <li class="nav-item"><a class="nav-link" [routerLink]="['/register']"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li class="nav-item" *ngIf="!authService.isLoggedIn()"><a class="nav-link" [routerLink]="['/login']"><span
+        class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      <li class="nav-item" *ngIf="authService.isLoggedIn()"><a class="nav-link" [routerLink]="['/login']"><span
+        class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+    </ul>
+  </nav>
+  <p-toast position="bottom-right"></p-toast>
+  <router-outlet></router-outlet>
+</div>
