@@ -1,4 +1,4 @@
-import {firstBy} from 'thenby';
+
 import * as moment from 'moment';
 import {Season, PercentileType, League, Team} from '../models/models';
 import * as _ from 'lodash';

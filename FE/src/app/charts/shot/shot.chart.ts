@@ -9,16 +9,8 @@ import {
   ViewChild
 } from '@angular/core';
 import * as d3 from 'd3';
-import {MatchService} from '../../services/match.service';
 import {ChartService} from '../../services/chart.service';
 import {PitchService} from '../../services/pitch.service';
-import {symbolHexagon} from 'd3-symbol-extra';
-import {capitalizeField} from '../../functions/shared.functions';
-import * as _ from 'lodash';
-import {TranslationService} from "../../services/translation.service";
-import {Store} from "../../services/store";
-import {distinct, distinctUntilChanged, first} from "rxjs/operators";
-import {ChartParameters, Coors, League, Match, Player, Season, Team} from "../../models/models";
 import {dateFromSQL, parseTime} from 'app/functions/date.functions';
 import {extractFieldValues} from "../../functions/extract.functions";
 import {
@@ -35,6 +27,7 @@ import {
   getSymbolByShotType
 } from "../../functions/color.functions";
 import {filterVisualData} from "../../functions/data.functions";
+import {ChartParameters, Coors, League, Match, Player, Season, Team} from "../../models/models";
 
 
 @Component({
@@ -42,7 +35,7 @@ import {filterVisualData} from "../../functions/data.functions";
   templateUrl: 'shot.chart.html',
   styleUrls: ['shot.chart.scss']
 })
-export class ShotChart implements AfterViewInit, OnChanges {
+export class ShotChart implements OnChanges {
   @Input() match: Match;
   @Input() club: Team;
   @Input() player: Player;
@@ -66,18 +59,10 @@ export class ShotChart implements AfterViewInit, OnChanges {
   dateFromSQL = dateFromSQL;
   triggered = 0;
   showAssists = true;
-
-  @HostListener('document:keydown.escape', ['$event'])
-  onKeydownHandler(event: KeyboardEvent) {
-    this.print = !this.print;
-    this.render()
-  }
+  source: string;
 
   constructor(
     private pitchService: PitchService,
-    private trans: TranslationService,
-    private matchService: MatchService,
-    public store: Store,
     private chartService: ChartService) {
     window['shot'] = this;
     this.pars = {
@@ -94,12 +79,6 @@ export class ShotChart implements AfterViewInit, OnChanges {
 
   ngOnChanges() {
     this.getShots();
-  }
-
-  ngAfterViewInit() {
-    this.store.matchesChanged.pipe(distinctUntilChanged()).subscribe(next => {
-      this.getShots();
-    });
   }
 
   get legend() {
@@ -127,7 +106,7 @@ export class ShotChart implements AfterViewInit, OnChanges {
   get shotTypes() {
     const wyscout = ["free_kick", "left_foot",  "right_foot", "head_or_other", "penalty"];
     const instat = ['free_kick', 'foot/other'];
-    return this.store.source === "wyscout" ? wyscout : instat;
+    return this.source === "wyscout" ? wyscout : instat;
   }
 
   resultToStroke (result) {
@@ -158,55 +137,13 @@ export class ShotChart implements AfterViewInit, OnChanges {
   }
 
   getShots() {
-    if (new Date().getTime() <= (this.triggered + 100))
-      return;
-    this.triggered = new Date().getTime();
     if (this.match) {
       this.margin_top = 105;
       this.chartService.getShotsForMatch(this.match.source + this.match.match_source_id, (data) => {
-        data = data.find(d => d.team_source_id == this.club.source_id);
+        data = data.find(d => d.team_source_id === this.club.source_id);
         this.data = data ? data.items : [];
         this.render();
       });
-    } else if (this.player) {
-      this.chartService.getShotsForPlayer(this.player.source + this.player.source_id, (data) => {
-        data = data.find(d => d.season === this.season.season && d.team_source_id === this.club.source_id);
-        this.data = data ? data.items : [];
-        this.render();
-      });
-    } else if (this.club && this.store.showMatchStats) {
-      const matches = this.store.matches.chosen.map(m => m.source_id);
-      if (this.store.against) {
-        this.chartService.getShotsAgainstForTeamAndMatches(this.club.source + this.club.source_id, matches, (data) => {
-          const flatten = (array) => array.reduce((arr, item) => {
-            arr.push(...item.items);
-            return arr;
-          }, []);
-          this.data = data ? flatten(data) : [];
-          this.render();
-        });
-      } else {
-        this.chartService.getShotsForTeamAndMatches(this.club.source + this.club.source_id, matches, (data) => {
-          const flatten = (array) => array.reduce((arr, item) => {
-            arr.push(...item.items);
-            return arr;
-          }, []);
-          this.data = data ? flatten(data) : [];
-          this.render();
-        });
-      }
-    } else if (this.club) {
-      if (this.store.against) {
-        this.chartService.getShotsAgainstForTeamLeagueAndSeason(this.club.source, this.club.source_id, this.league.source_id, this.season.season, (data) => {
-          this.data = data.items;
-          this.render();
-        });
-      } else {
-        this.chartService.getShotsForTeamLeagueAndSeason(this.club.source, this.club.source_id, this.league.source_id, this.season.season, (data) => {
-          this.data = data.items;
-          this.render();
-        });
-      }
     }
   }
 
@@ -288,12 +225,12 @@ export class ShotChart implements AfterViewInit, OnChanges {
       });
 
     const xgFillFn = (type) => getColorByxG(parseFloat(type));
-    let [shotTypeItems, _] = generateLegend(svg, that.print, that.pars, that.shotTypes, (type) => that.print ? "white" : "black", getNone, getSymbolByShotType);
+    const [shotTypeItems, _] = generateLegend(svg, that.print, that.pars, that.shotTypes, (type) => that.print ? "white" : "black", getNone, getSymbolByShotType);
     createLegend(svg, shotTypeItems, that.pars, that, "shotTypes");
-    let [resultTypeItems, __] = generateLegend(svg, that.print, that.pars, that.resultTypes, getColorByShotResultWithPrint(that.print), getColorByShotResultWithPrint(that.print), null,
+    const [resultTypeItems, __] = generateLegend(svg, that.print, that.pars, that.resultTypes, getColorByShotResultWithPrint(that.print), getColorByShotResultWithPrint(that.print), null,
       that.shotTypes.length, 2);
     createLegend(svg, resultTypeItems, that.pars, that, "resultTypes");
-    let [xGTypeItems, ___] = generateLegend(svg, that.print, that.pars, that.xGTypes, (type) => that.print ? "white" : "black", xgFillFn, (type) => symbolHexagon,
+    const [xGTypeItems, ___] = generateLegend(svg, that.print, that.pars, that.xGTypes, (type) => that.print ? "white" : "black", xgFillFn, (type) => d3.symbolDiamond,
       that.shotTypes.length + that.resultTypes.length, 3);
     createLegend(svg, xGTypeItems, that.pars, that, "xGTypes");
   }

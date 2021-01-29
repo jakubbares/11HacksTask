@@ -1,6 +1,4 @@
 import * as d3 from "d3";
-import {symbolHexagon} from 'd3-symbol-extra';
-
 
 export function challengeTypeToSymbol(type: string) {
   switch (type) {
@@ -98,9 +96,9 @@ export function getSymbolByShotType(type) {
     case 'free_kick': return d3.symbolSquare;
     case 'header': return d3.symbolCircle;
     case 'head_or_other': return d3.symbolCircle;
-    case 'foot/other': return symbolHexagon;
-    case 'left_foot': return symbolHexagon;
-    case 'right_foot': return symbolHexagon;
+    case 'foot/other': return d3.symbolTriangle;
+    case 'left_foot': return d3.symbolTriangle;
+    case 'right_foot': return d3.symbolTriangle;
     case 'assist': return d3.symbolTriangle;
     case 'dribble': return d3.symbolDiamond;
     case 'penalty': return d3.symbolDiamond;
